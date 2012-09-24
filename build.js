@@ -3,10 +3,10 @@ var fs = require("fs"),
 
 exports.build = function(dest) {  
   var source = browserify.bundle({
-    require: __dirname + "/lib/bz.js",
+    require: __dirname + "/lib/bz-json.js",
     ignore: ['request', 'xhr']
   });
-  source = "var bz = (function() {" + source + " return require('/bz')})();";
+  source = "var bz = (function() {" + source + " return require('/bz-json')})();";
   
   fs.writeFileSync(dest, source);
 }

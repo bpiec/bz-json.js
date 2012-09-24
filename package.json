@@ -1,20 +1,19 @@
 {
-    "name": "bz",
-    "description": "Bugzilla REST API wrapper",
-    "version": "0.2.5",
-    "author": "Heather Arthur <fayearthur@gmail.com>",
-    "keywords": ["bugzilla"],
+    "name": "bz-json",
+    "description": "Bugzilla JSON API wrapper",
+    "version": "0.1.0",
+    "author": "Bartosz Piec <bpiec@aviary.pl>",
+    "keywords": ["bugzilla", "json"],
     "repository": {
-        "url": "http://github.com/harthur/bz.js.git",
+        "url": "http://github.com/bpiec/bz-json.js.git",
         "type": "git"
     },
-    "main": "./bz",
+    "main": "./bz-json",
     "dependencies": {
         "request": "1.9.x"
     },
     "devDependencies": {
         "connect": "*",
         "browserify": ">=1.0.0"
-    },
-    "id": "jid0-3MhY9xRVhRU80IsfUnZKLeIo5c0"
+    }
 }
