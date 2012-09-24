@@ -41,5 +41,5 @@ var bugzilla = bz.createClient({
 Each method takes a callback that takes an error message (if any kind of error occurs) as its first argument, and the expected return data as its second.
 
 `getBug(id, callback)`  
-retrieves a [bug](https://wiki.mozilla.org/Bugzilla:REST_API:Objects#Bug) given a bug id.
+retrieves a [bug](http://www.bugzilla.org/docs/tip/en/html/api/Bugzilla/WebService/Bug.html) given a bug id.
 
