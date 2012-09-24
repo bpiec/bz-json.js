@@ -76,7 +76,6 @@ BugzillaClient.prototype = {
         else {
             try {
                 json = JSON.parse(response.responseText);
-                console.log(json);
             } catch (e) {
                 error = "Response wasn't valid json: '" + response.responseText + "'";
             }
